@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*
+# - id - só pode ser usado uma vez, mesmo que ele funcione
+. - class - pode estar em diversos itens
+*/
+
+
+body{
+    background-color: rgb(205,255,203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(4,109,0);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(4,109,0);
+    color: white;
+}
+
+h2{
+    color: rgb(51, 77, 49);
+}
+
+.basic{
+    color: red;
+    font-weight: bold;
+}
+
+.intermed{
+    color: rgb(184, 184, 0)
+}
+
+.advanced{
+    color: rgb(0, 255, 0);
+}
+
+.destaque{
+    background-color: black;
+    color: white;
+}
+ /*
+ o destaque está depois do basic com isso a cor do destaque é a que prevalece sobre a do basic
+ */
