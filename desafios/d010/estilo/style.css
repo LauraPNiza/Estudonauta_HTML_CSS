@@ -1,0 +1,53 @@
+body{
+    background-color: #E6E3C0;
+}
+
+header{
+    background-color: #0C4926;
+    color: white;
+    text-align: center;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #1E7E47;
+}
+
+nav > a:hover{
+    background-color: #1E7E47;
+    color: #0C4926;
+}
+
+main{
+    background-color: white;
+}
+
+h2{
+    background-color: #7FD3A7;
+    color: #2D483A;
+}
+
+.referencia{
+    background-color: #7FD3A7;
+    padding: 2px 5px;
+    color: #2D483A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h3{
+    background-color: #0C4926;
+    color: white;
+}
+
+#extra{
+    background-color: #80E1AA;
+    color: black;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #0C4926;
+    color: #1E7E47;
+    text-align: center;
+}
